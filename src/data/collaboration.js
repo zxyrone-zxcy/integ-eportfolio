@@ -13,7 +13,7 @@ export const collaboration = {
   demo: 'https://signwiseasl.vercel.app',
   repo: '',
   // TODO: your own role in the group, e.g. 'Front-end developer'. Hidden while empty.
-  role: 'Gesture recognition and hand-tracking UI, email (SMTP), marketing',
+  role: 'Front-end design, gesture recognition and hand-tracking UI, email (SMTP), marketing',
   team: [
     { name: 'Janjay Bugayong', role: '' },
     { name: 'Hyun Eun Kim', role: '' },
@@ -66,6 +66,11 @@ export const collaboration = {
   ],
   // TODO: what YOU built or wrote. Each entry: { id, title, detail }. Section is hidden while empty.
   contributions: [
+    {
+      id: 5,
+      title: 'Front-end design',
+      detail: 'Designed the overall front end of SignWise ASL: the visual design and page layouts that learners and administrators use, from the landing page and lesson catalog to the practice, quiz and progress screens.',
+    },
     {
       id: 1,
       title: 'Gesture recognition accuracy',
