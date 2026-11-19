@@ -13,7 +13,7 @@ export const quizzes = {
     q('p-q5', '2026-08-08', 'JS 1 Module 5 Quiz result', 100, 100, ['JavaScript']),
     q('p-q6', '2026-08-08', 'JS 1 Module 6 Quiz result', 100, 100, ['JavaScript']),
     // Title is cut off in the Teams list; replace with the full title.
-    q('p-q7', '2026-08-11', 'JavaScript Fundamentals and Control St…', 20, 20, ['JavaScript']),
+    q('p-q7', '2026-08-11', 'JavaScript Fundamentals and Control Structure', 20, 20, ['JavaScript']),
     q('p-q8', '2026-08-14', 'JS 2 Module 1 to 3 Quiz Result', null, 100, ['JavaScript'], WAIT),
     q('p-q9', '2026-08-18', 'Prelim Practical Examination', 100, 100, ['Exam']),
     q('p-q10', '2026-08-28', 'Prelim Examination ITC C301 SY2026', 36, 45, ['Exam']),

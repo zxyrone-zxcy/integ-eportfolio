@@ -10,7 +10,7 @@ const TEACHER = 'Turned in by teacher, awaiting grade'
 export const tasks = {
   prelim: [
     // Titles ending in … are cut off in the Teams list; replace with the full title.
-    t('p-t1', '2026-07-18', 'CLO P1-1 Project Topic Conceptualizatio…', 90, 100, ['Project']),
+    t('p-t1', '2026-07-18', 'CLO P1-1 Project Topic Conceptualization (Individual)', 90, 100, ['Project']),
     t('p-t2', '2026-07-18', 'Project Groupings', null, 100, ['Project'], WAIT),
     t('p-t3', '2026-07-21', 'JS 1 Module', 1, 1, ['JavaScript']),
     t('p-t4', '2026-07-24', 'Final Proposed Project Topic', 100, 100, ['Project']),
@@ -27,12 +27,12 @@ export const tasks = {
   ],
   midterm: [
     t('m-t1', '2026-09-01', 'Midterm PT Laravel Installation', 100, 100, ['Laravel']),
-    t('m-t2', '2026-09-01', 'Lab Activity: PHP and HTML Forms Inte…', 100, 100, ['PHP', 'HTML']),
-    t('m-t3', '2026-09-04', 'Week 8 Activity PT Laravel pages and ro…', 100, 100, ['Laravel']),
-    t('m-t4', '2026-09-04', 'Week 8 Activity PT Laravel Built in Auth…', 100, 100, ['Laravel']),
+    t('m-t2', '2026-09-01', 'Lab Activity: PHP and HTML Forms Integration', 100, 100, ['PHP', 'HTML']),
+    t('m-t3', '2026-09-04', 'Week 8 Activity PT Laravel pages and routes', 100, 100, ['Laravel']),
+    t('m-t4', '2026-09-04', 'Week 8 Activity PT Laravel Built in Authentication', 100, 100, ['Laravel']),
     t('m-t5', '2026-09-08', 'Week 9 Activity Task', 100, 100, ['PHP']),
     t('m-t6', '2026-09-11', 'Week 9 PT Database Manipulation', 100, 100, ['PHP', 'Database']),
-    t('m-t7', '2026-09-18', 'Week 10 PT PHP Operators and Conditi…', 100, 100, ['PHP']),
+    t('m-t7', '2026-09-18', 'Week 10 PT PHP Operators and Conditions', 100, 100, ['PHP']),
     t('m-t8', '2026-09-18', 'Week 10 PT Lab Activity', 100, 100, ['PHP']),
     t('m-t9', '2026-09-22', 'Week 11 Activity PT Laravel CRUD', 100, 100, ['Laravel']),
     t('m-t10', '2026-09-22', 'Week 11 P3 Research IEEE output', null, 100, ['Research'], TEACHER),
@@ -40,8 +40,8 @@ export const tasks = {
   ],
   final: [
     t('f-t6', '2026-10-09', 'Week 13 Activity PT Laravel Reports', null, 100, ['Laravel'], WAIT),
-    t('f-t7', '2026-10-16', 'Week 14 PT 50% working system with d…', 90, 100, ['Project']),
-    t('f-t1', '2026-10-21', 'Week 15 PT 100% working system with …', null, 100, ['Project'], WAIT),
+    t('f-t7', '2026-10-16', 'Week 14 PT 50% working system with documentation', 90, 100, ['Project']),
+    t('f-t1', '2026-10-21', 'Week 15 PT 100% working system with documentation', null, 100, ['Project'], WAIT),
     t('f-t2', '2026-10-23', 'Project presentation', null, 100, ['Project'], TEACHER),
     t('f-t3', '2026-10-30', 'Week 16 PT Project Documentation', null, 100, ['Project'], TEACHER),
     t('f-t4', '2026-11-04', 'Research paper presentation', null, 100, ['Research'], TEACHER),
